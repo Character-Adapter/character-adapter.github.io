@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Offcial website of 'Character-Adapter: Prompt-Guided Region Control for High-Fidelity Character Customization'">
+  <meta name="keywords" content="Character-Adapter, IP Consistency">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Character-Adapter</title>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MRQC0YFE17');
+</script>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="./static/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./static/slick/slick-theme.css" />
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <style>
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+  </style>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <!-- <a class="navbar-item" href="">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+        </a> -->
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://instantanything.github.io/">
+              LLM4GEN
+            </a>
+            <a class="navbar-item">
+              Character-Diffusion (Coming Soon)
+            </a>
+            
+        </div>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        
+        <div class="container has-text-centered">
+          
+          <h1 class="title is-1 publication-title">
+            Character-Adapter: Prompt-Guided Region Control for High-Fidelity Character Customization
+          </h1>
+          
+          <div class="is-size-5 publication-authors">
+            <div class="author-block">
+              Yuhang Ma</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Wenting Xu</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Jiji Tang</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Qinfeng Jin</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Rongsheng Zhang</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Zeng Zhao</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Changjie Fan</a><sup>1</sup>,
+            </div>
+            <div class="author-block">
+              Bai Liu</a><sup>1</sup>
+            </div>
+          </div>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup> Fuxi AI Lab, NetEase Inc. </span>
+            
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2406.16537" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Arxiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/IP-Consistency/Character-Adapter"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <img src="./static/intro.jpg" alt="Teaser Image" width="100%">
+        <h2 class="subtitle has-text-centered">
+          Character-Adapter empowers the customization of concepts while preserving the high-fidelity appearance of given characters (without any quantitative limitations), encompassing attributes such as hairstyle, identity, attire, and others without extra training.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              Customized image generation, which seeks to synthesize images with consistent characters, holds significant relevance for applications such as storytelling, portrait generation, and character design. However, previous approaches have encountered challenges in preserving characters with high-fidelity consistency due to inadequate feature extraction and concept confusion of reference characters. Therefore, we propose <strong>Character-Adapter</strong>, a plug-and-play framework designed to generate images that preserve the details of reference characters, ensuring high-fidelity consistency. Character-Adapter employs prompt-guided segmentation to ensure fine-grained regional features of reference characters and dynamic region-level adapters to mitigate concept confusion. Extensive experiments are conducted to validate the effectiveness of Character-Adapter. Both quantitative and qualitative results demonstrate that Character-Adapter achieves the state-of-the-art performance of consistent character generation, with an improvement of 24.8% compared with other methods.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+  </section>
+
+  <section class="method">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              We present Character-Adapter, a novel framework designed to facilitate consistent character generation. Specifically, it incorporates a <strong>prompt-guided segmentation</strong> module that localizes image regions based on text prompts, thereby 
+facilitating adequate image feature extraction. Subsequently, we introduce a <strong>dynamic region-level adapters</strong> module, comprising region-level adapters and attention dynamic fusion. The <strong>region-level 
+adapters</strong> allow each adapter to concentrate on the corresponding region (e.g., attire, decorations) of the generated image, thereby mitigating concept fusion and promoting disentangled representations 
+facilitating adequate image feature extraction. Additionally, the <strong>attention dynamic fusion</strong> is introduced to enable more accurate conditional image feature preservation while facilitating coherent generation 
+between the character and the background regions. As illustrated in the figure, we first segment a reference character into several parts using prompt-guided segmentation. Subsequently, We obtain the attention maps of the target image layout using the same approach. Finally, we utilize dynamic region-level adapters to achieve detailed and consistent character generation.            </p>
+          </div>
+
+          <div class="container is-max-desktop">
+            <img src="./static/framework.png" alt="Image0" width="100%">
+          </div>
+
+          <div class="content has-text-justified">
+            <p>
+              Adavantages: (1) We do not need extra training. Character-Adapter can be applied to any model you want. (2) We maintain high fidelity of the given characters as well as text-image alignment. (3) Our method can be applied not only to generate characters but also to create general objects.
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Customize Your Character/Characters to Anywhere</h2>
+
+          <div class="container is-max-desktop">
+            <img src="./static/additional_result.png" alt="Image0" width="100%">
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              Character-Adapter is designed to generate highly consistent characters with intricate details. Its advantage of not necessitating further training allows it to be more versatile and practical in its applications. This can generate not just characters, but also objects in other domains.
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Transfer Your Character/Characters into Any Style</h2>
+
+          <div class="container is-max-desktop">
+            <img src="./static/person_style.png" alt="Image0" width="100%">
+          </div>
+
+
+        </div>
+      </div>
+  
+  </div class="section">
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Extended Application</h2>
+
+          <div class="container is-max-desktop">
+            <img src="./static/application.png" alt="Image0" width="100%">
+          </div>
+
+          <div class="content has-text-justified">
+            <p>
+              Character-Adapter’s versatility and compatibility. (a) Combination with Pose Control. (b) Inpainting with a reference image. (c) Generation with animals (other types).
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+      <!--/ Abstract. -->
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Visulization Compared with Previous Work</h2>
+
+          <div class="container is-max-desktop">
+            <img src="./static/showcase.png" alt="Image0" width="100%">
+          </div>
+
+          <div class="content has-text-justified">
+            <p>
+              Compared with other methods, including both fine-tuned and training-free methods, Character-Adapter generates high-fidelity multi-character images with intricate details while preserving text-image alignment. 
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+  </section>
+
+  
+
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container content is-max-desktop">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{ma2024characteradapter,
+        title={Character-Adapter: Prompt-Guided Region Control for High-Fidelity Character Customization}, 
+        author={Yuhang Ma and Wenting Xu and Jiji Tang and Qinfeng Jin and Rongsheng Zhang and Zeng Zhao and Changjie Fan and Zhipeng Hu},
+        year={2024},
+        eprint={2406.16537},
+        archivePrefix={arXiv},
+        primaryClass={id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'}
+  }</code></pre>
+  </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          The website template is borrowed from InstandID.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./static/slick/slick.js"></script>
+</body>
+
+</html>
